@@ -1,0 +1,18 @@
+.background    { background-image: url("https://cdn.pixabay.com/photo/2016/06/28/00/13/castle-1483681_960_720.jpg");
+                 table-layout: fixed;
+                 border-spacing: 0;   }
+.background td { padding: 0;          }
+.lava          { background: rgb(255, 100, 100); }
+.wall          { background-image: url("http://maxpixel.freegreatpicture.com/static/photo/1x/Brick-Wall-Wall-Structure-Stones-Stone-Wall-Bricks-454952.jpg");}
+
+.actor  { position: absolute;  }
+.player { background: rgb(64, 64, 64); }
+.coin {background: rgb(241, 229, 89); }
+.cash{background: rgb(24, 89, 64); }
+
+.game {
+  overflow: hidden;
+  max-width: 600px;
+  max-height: 450px;
+  position: relative;
+}
